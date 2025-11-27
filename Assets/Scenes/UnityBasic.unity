@@ -205,7 +205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc6431131b848d4dbe5f34b9dd7640d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterColor: {r: 0, g: 0, b: 0, a: 0}
+  enterColor: {r: 0.9528302, g: 0.19825993, b: 0.013483422, a: 0}
 --- !u!114 &95661150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -250,15 +250,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 
   actorType: 
-  initPosition: {x: -3, y: 1.5, z: -3}
+  initPosition: {x: -3, y: 1.5, z: 3}
   initRotation: {x: 45.000004, y: 0, z: 44.999996}
   moveSpeed: 3
   rotateSpeed: 270
   moveTransforms:
-  - {fileID: 312754564}
   - {fileID: 62532943}
   - {fileID: 723419362}
   - {fileID: 1687981976}
+  - {fileID: 312754564}
 --- !u!23 &95661152
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc6431131b848d4dbe5f34b9dd7640d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterColor: {r: 0, g: 0, b: 0, a: 0}
+  enterColor: {r: 0.9339623, g: 0.066082224, b: 0.066082224, a: 0}
 --- !u!114 &166586156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -427,15 +427,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 
   actorType: 
-  initPosition: {x: -3, y: 1.5, z: -3}
+  initPosition: {x: 3, y: 1.5, z: -3}
   initRotation: {x: 45.000004, y: 0, z: 44.999996}
   moveSpeed: 3
   rotateSpeed: 270
   moveTransforms:
+  - {fileID: 1687981976}
   - {fileID: 312754564}
   - {fileID: 62532943}
   - {fileID: 723419362}
-  - {fileID: 1687981976}
 --- !u!23 &166586158
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1854,7 +1854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1bc6431131b848d4dbe5f34b9dd7640d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enterColor: {r: 0, g: 0, b: 0, a: 0}
+  enterColor: {r: 0.9528302, g: 0.049439307, b: 0.049439307, a: 0}
 --- !u!114 &1458899679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1899,15 +1899,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actorName: 
   actorType: 
-  initPosition: {x: -3, y: 1.5, z: -3}
+  initPosition: {x: 3, y: 1.5, z: 3}
   initRotation: {x: 45.000004, y: 0, z: 44.999996}
   moveSpeed: 3
   rotateSpeed: 270
   moveTransforms:
-  - {fileID: 312754564}
-  - {fileID: 62532943}
   - {fileID: 723419362}
   - {fileID: 1687981976}
+  - {fileID: 312754564}
+  - {fileID: 62532943}
 --- !u!23 &1458899681
 MeshRenderer:
   m_ObjectHideFlags: 0
