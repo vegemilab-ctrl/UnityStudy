@@ -46,9 +46,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee17f3e73451ff40992cf16dfc72fb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitEffect: {fileID: 100002, guid: 99c73c92ac40473459640b165473206f, type: 3}
   launchPower: 600
+  useGravity: 0
+  hitEffect: {fileID: 100002, guid: bc8d2212c2ce5ef459edd17d2d63da64, type: 3}
+  holeEffect: {fileID: 100002, guid: 6dc033bcc9d82ea4fa59028b76c5b7c3, type: 3}
+  allowLayer:
+    serializedVersion: 2
+    m_Bits: 4096
   _rigidbody: {fileID: 0}
+  damage: 1
+  explosionPower: 100
+  explosionRadius: 0.2
 --- !u!54 &3197209955610283693
 Rigidbody:
   m_ObjectHideFlags: 0
